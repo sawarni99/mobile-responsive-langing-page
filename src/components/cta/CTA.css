@@ -1,0 +1,19 @@
+.cta {
+  width: var(--body-width);
+  background: rgba(228, 43, 43, 0.212);
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+.cta-left {
+  flex: 1;
+}
+.cta-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
