@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <Navbar />
       </div>
       <div className="app-body"></div>
-      <div className="app-footer"></div>
+      <div className="app-footer">
+        <Footer />
+      </div>
     </div>
   );
 }
