@@ -24,16 +24,16 @@ function TextSection() {
       <p>
         <b>DESIGN CONCEPT</b>
       </p>
+      <h1 className="text-section-head">
+        The best design for your studio website
+      </h1>
       <br />
-      <h1>The best design for your studio website</h1>
-      <br />
-      <br />
-      <span>
+      <p className="text-section-head">
         Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor
         sit ipsum malesuada a, duis volutpat. Convallis turpis erat tempus,
         viverra aliquet. Nullam viverra nam auctor sit ipsum malesuada a, duis
         volutpat.
-      </span>
+      </p>
       <div className="text-section-top">
         <div>
           <CardView heading="Design Concept" src="/images/exclamation.png" />

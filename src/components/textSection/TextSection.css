@@ -3,6 +3,9 @@
 
   padding: 80px;
 }
+.text-section-head {
+  width: 50%;
+}
 .text-section-card {
   display: flex;
   align-items: center;
