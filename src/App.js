@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import FirstInfo from "./components/info/FirstInfo";
 import SecondInfo from "./components/info/SecondInfo";
+import ThirdInfo from "./components/info/ThirdInfo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <FirstInfo />
         <SecondInfo />
+        <ThirdInfo />
       </div>
       <div className="app-footer">
         <Footer />
