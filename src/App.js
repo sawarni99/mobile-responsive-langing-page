@@ -6,6 +6,7 @@ import Hero from "./components/hero/Hero";
 import FirstInfo from "./components/info/FirstInfo";
 import SecondInfo from "./components/info/SecondInfo";
 import ThirdInfo from "./components/info/ThirdInfo";
+import TextSection from "./components/textSection/TextSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <FirstInfo />
         <SecondInfo />
         <ThirdInfo />
+        <TextSection />
       </div>
       <div className="app-footer">
         <Footer />
