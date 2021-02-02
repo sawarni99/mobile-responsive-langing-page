@@ -3,11 +3,13 @@
   margin-top: 50px;
 }
 .third-info-right {
+  position: relative;
   flex: 1;
 }
-.third-info-right img {
-  height: 350px;
-  width: 425px;
+.third-play-button img {
+  height: 30px;
+  width: 30px;
+  border: solid;
 }
 .third-info-left {
   flex: 1;

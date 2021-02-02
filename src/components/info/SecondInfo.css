@@ -3,12 +3,10 @@
   margin-top: 50px;
 }
 .second-info-left {
+  position: relative;
   flex: 1;
 }
-.second-info-left img {
-  height: 350px;
-  width: 425px;
-}
+
 .second-info-right {
   flex: 1;
   display: flex;

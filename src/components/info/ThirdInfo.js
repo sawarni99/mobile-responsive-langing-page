@@ -1,5 +1,6 @@
 import React from "react";
 import "./ThirdInfo.css";
+import PlayButton from "../playButton/PlayButton";
 
 function ThirdInfo() {
   return (
@@ -16,7 +17,8 @@ function ThirdInfo() {
           </p>
         </div>
         <div className="third-info-right">
-          <img src="/images/info4.jpg" alt="" />
+          <img src="/images/info4.jpg" alt="" height="350px" width="425px" />
+          <PlayButton />
         </div>
       </div>
     </div>
