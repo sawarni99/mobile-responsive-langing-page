@@ -1,0 +1,35 @@
+.info {
+  width: var(--body-width);
+}
+.info img {
+  border-radius: 5px;
+}
+
+.first-info {
+  display: flex;
+}
+.first-info-left {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.first-info-left img {
+  width: 300px;
+  height: 351px;
+}
+.first-info-right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.first-info-right img {
+  height: 50%;
+  width: 90%;
+}
+.first-info-right div {
+  width: 70%;
+  margin-bottom: 100px;
+}

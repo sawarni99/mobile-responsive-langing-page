@@ -1,5 +1,6 @@
 .hero {
   width: var(--body-width);
+  height: 80vh;
 }
 .hero-info {
   width: 35%;
