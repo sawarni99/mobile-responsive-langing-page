@@ -1,6 +1,6 @@
 .button-normal-blue {
-  height: 50px;
-  width: 175px;
+  height: 40px;
+  width: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,8 +9,8 @@
   color: white;
 }
 .button-normal-red {
-  height: 50px;
-  width: 175px;
+  height: 40px;
+  width: 165px;
   display: flex;
   justify-content: center;
   align-items: center;

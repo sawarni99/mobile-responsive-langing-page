@@ -1,0 +1,13 @@
+.hero {
+  width: var(--body-width);
+}
+.hero-info {
+  width: 35%;
+}
+.hero-info h5 {
+  color: var(--color-gray);
+}
+.hero-review {
+  margin-top: 100px;
+  width: 35%;
+}

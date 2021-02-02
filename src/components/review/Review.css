@@ -1,0 +1,15 @@
+.review-text {
+  font-size: 130%;
+}
+.review-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 90%;
+}
+.review-profile img {
+  border-radius: 50%;
+  height: 45px;
+  width: 47px;
+  margin-right: 15px;
+}
