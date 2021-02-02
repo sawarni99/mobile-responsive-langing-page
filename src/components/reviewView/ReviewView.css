@@ -1,0 +1,12 @@
+.review-view {
+  width: var(--body-width);
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.review-view-card {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

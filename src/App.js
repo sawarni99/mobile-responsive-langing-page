@@ -8,6 +8,7 @@ import SecondInfo from "./components/info/SecondInfo";
 import ThirdInfo from "./components/info/ThirdInfo";
 import TextSection from "./components/textSection/TextSection";
 import Team from "./components/team/Team";
+import ReviewView from "./components/reviewView/ReviewView";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <ThirdInfo />
         <TextSection />
         <Team />
+        <ReviewView />
       </div>
       <div className="app-footer">
         <Footer />
