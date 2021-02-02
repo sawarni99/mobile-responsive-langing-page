@@ -1,0 +1,15 @@
+.team {
+  width: var(--body-width);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.team span {
+  text-align: center;
+  width: 60%;
+}
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
