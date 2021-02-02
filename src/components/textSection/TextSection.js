@@ -1,5 +1,6 @@
 import React from "react";
 import "./TextSection.css";
+import Card from "../card/Card";
 
 function TextSection() {
   const CardView = ({ heading, src }) => {
@@ -43,13 +44,16 @@ function TextSection() {
           <CardView heading="Design Concept" src="/images/exclamation.png   " />
         </div>
       </div>
+      <div className="text-section-heading">
+        <h2>The best design for your studio website</h2>
+        <p>
+          <u>Experienced Team</u>
+        </p>
+      </div>
       <div className="text-section-bottom">
-        <div className="text-section-heading">
-          <h2>The best design for your studio website</h2>
-          <p>
-            <u>Experienced Team</u>
-          </p>
-        </div>
+        <Card heading="Audit" />
+        <Card heading="Team Work" />
+        <Card heading="Create" />
       </div>
     </div>
   );

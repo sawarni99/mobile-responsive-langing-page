@@ -1,0 +1,22 @@
+.card-container {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  border-radius: 5px;
+}
+.card {
+  padding: 20px;
+}
+.card p {
+  font-size: 150%;
+}
+.card div {
+  margin-top: 30px;
+}
+.card-bottom {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  color: var(--color-gray);
+  font-size: 90%;
+}
