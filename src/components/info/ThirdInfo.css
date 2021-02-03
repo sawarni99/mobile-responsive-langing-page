@@ -28,4 +28,5 @@
 .third-info-left p {
   font-weight: bold;
   color: var(--color-blue);
+  cursor: pointer;
 }

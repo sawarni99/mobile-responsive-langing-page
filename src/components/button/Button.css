@@ -7,6 +7,7 @@
   background: var(--color-blue);
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .button-normal-red {
   height: 40px;
@@ -17,6 +18,7 @@
   background: var(--color-pink);
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .button-small {
   width: 95px;
@@ -28,4 +30,5 @@
   font-size: small;
   border-radius: 5px;
   color: var(--color-blue);
+  cursor: pointer;
 }

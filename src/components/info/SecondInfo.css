@@ -24,4 +24,5 @@
 .second-info-right p {
   font-weight: bold;
   color: var(--color-blue);
+  cursor: pointer;
 }

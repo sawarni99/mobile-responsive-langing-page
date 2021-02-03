@@ -25,6 +25,7 @@
 .footer-right p {
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 .footer-right h4 {
   margin-bottom: 5px;
@@ -44,6 +45,7 @@
 }
 .footer-end b {
   color: white;
+  cursor: pointer;
 }
 .footer-end span {
   color: var(--color-gray);

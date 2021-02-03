@@ -49,6 +49,7 @@ function TextSection() {
         <h2>The best design for your studio website</h2>
         <p>
           <u>Experienced Team</u>
+          <img src="/images/right-arrow-col.png" alt="" />
         </p>
       </div>
       <div className="text-section-bottom">

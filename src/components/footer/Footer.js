@@ -26,7 +26,7 @@ function Footer() {
             <h4>Demos</h4>
             <br />
             <p>Dark Theme</p>
-            <p>Light Theme</p>
+            <p style={{ color: "#0E6FFF" }}>Light Theme</p>
             <p>Classic Theme</p>
           </div>
           <div>
