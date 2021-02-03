@@ -1,0 +1,40 @@
+.img-slider {
+  position: absolute;
+  top: 25vh;
+  right: 0;
+}
+.img-slider-bg {
+  height: 400px;
+  width: 460px;
+  border-radius: 0 0 0 10px;
+  position: relative;
+}
+.img-slider-loader-container {
+  width: 460px;
+  background-color: white;
+  height: 5px;
+  position: relative;
+}
+.img-slider-loader {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 5px;
+  background-color: var(--color-pink);
+}
+.img-slider-button {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  margin: 10px;
+}
+.img-slider-button img {
+  padding: 4px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.4);
+}
+.img-slider-button img:hover {
+  background: rgba(255, 255, 255);
+}

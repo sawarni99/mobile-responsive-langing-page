@@ -2,10 +2,12 @@ import React from "react";
 import "./Hero.css";
 import Button from "../../components/button/Button";
 import Review from "../../components/review/Review";
+import ImgSlider from "../../components/imgSlider/ImgSlider";
 
 function Hero() {
   return (
     <div className="hero">
+      <ImgSlider />
       <div className="hero-info">
         <h5>DESIGN INSPIRATION</h5>
         <h1>Convallis turpis erat tempus, viverra aliquet.</h1>

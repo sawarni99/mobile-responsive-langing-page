@@ -10,6 +10,7 @@ import TextSection from "./components/textSection/TextSection";
 import Team from "./components/team/Team";
 import ReviewView from "./components/reviewView/ReviewView";
 import CTA from "./components/cta/CTA";
+import CardSlider from "./components/cardSlider/CardSlider";
 
 function App() {
   return (
@@ -18,10 +19,17 @@ function App() {
         <Navbar />
       </div>
       <div className="app-body">
+        <div className="app-background-hero" />
         <Hero />
-        <FirstInfo />
-        <SecondInfo />
-        <ThirdInfo />
+        <div className="app-background-info">
+          <div className="app-background-info-grad" />
+          <FirstInfo />
+          <SecondInfo />
+          <ThirdInfo />
+        </div>
+        <div className="app-slider-card">
+          <CardSlider />
+        </div>
         <TextSection />
         <Team />
         <ReviewView />

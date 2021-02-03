@@ -1,0 +1,24 @@
+.slider-heading {
+  text-align: center;
+}
+
+.slider-cards {
+  display: flex;
+  width: var(--body-width);
+  position: absolute;
+}
+.slider {
+  width: 100%;
+}
+.slider-button {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+.slider-button img {
+  border: solid 1px var(--color-blue);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -21,6 +21,7 @@ function TextSection() {
   };
   return (
     <div className="text-section">
+      <div className="text-section-bg" />
       <p>
         <b>DESIGN CONCEPT</b>
       </p>

@@ -1,7 +1,20 @@
 .text-section {
+  position: relative;
   width: var(--body-width);
-
   padding: 80px;
+  margin-top: 80px;
+}
+.text-section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70%;
+  width: 100%;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #fff4d4;
+  border-radius: 40px;
+  transform: rotate(-180deg);
+  z-index: -1;
 }
 .text-section-head {
   width: 50%;
