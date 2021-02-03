@@ -7,7 +7,9 @@ import ImgSlider from "../../components/imgSlider/ImgSlider";
 function Hero() {
   return (
     <div className="hero">
-      <ImgSlider />
+      <div className="hero-slider">
+        <ImgSlider />
+      </div>
       <div className="hero-info">
         <h5>DESIGN INSPIRATION</h5>
         <h1>Convallis turpis erat tempus, viverra aliquet.</h1>

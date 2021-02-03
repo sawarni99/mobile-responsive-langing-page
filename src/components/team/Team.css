@@ -13,3 +13,9 @@
   justify-content: space-between;
   margin-top: 40px;
 }
+@media (max-width: 600px) {
+  .team-cards {
+    display: inline;
+    margin-top: 40px;
+  }
+}

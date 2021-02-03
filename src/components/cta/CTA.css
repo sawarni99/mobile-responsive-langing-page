@@ -17,3 +17,17 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .cta {
+    width: auto;
+    display: inline;
+  }
+  .cta-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+  }
+}

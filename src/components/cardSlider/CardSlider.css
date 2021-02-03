@@ -22,3 +22,15 @@
   margin: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .slider-cards {
+    position: relative;
+    display: inline;
+    top: 0;
+    left: 0;
+  }
+  .slider-button {
+    display: none;
+  }
+}

@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./CardSlider.css";
 import Card from "../card/Card";
 
 function CardSlider() {
   const [style, setStyle] = useState({
-    top: "150px",
-    left: "500px",
+    top: "0px",
+    left: "0px",
   });
+
+  useEffect(() => {
+    if (window.innerWidth > 600) {
+      setStyle({ top: "150px", left: "460px" });
+    }
+  }, []);
+
   let { left } = style;
   left = parseInt(left);
 

@@ -50,3 +50,11 @@
 .footer-end span {
   color: var(--color-gray);
 }
+@media (max-width: 600px) {
+  .footer-right {
+    display: none;
+  }
+  .footer {
+    width: auto;
+  }
+}

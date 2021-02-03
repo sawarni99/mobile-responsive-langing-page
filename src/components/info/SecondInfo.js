@@ -7,7 +7,13 @@ function SecondInfo() {
     <div className="info">
       <div className="second-info">
         <div className="second-info-left">
-          <img src="/images/info3.jpg" alt="" height="350px" width="425px" />
+          <img
+            className="second-info-left-img"
+            src="/images/info3.jpg"
+            alt=""
+            height="350px"
+            width="425px"
+          />
           <PlayButton />
         </div>
         <div className="second-info-right">

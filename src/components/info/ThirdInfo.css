@@ -30,3 +30,25 @@
   color: var(--color-blue);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .third-info {
+    display: inline;
+    width: auto;
+  }
+  .third-info-left {
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .third-info-right {
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .third-info-right-img {
+    width: 100%;
+  }
+}

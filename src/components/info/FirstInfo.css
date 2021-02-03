@@ -33,3 +33,22 @@
   width: 70%;
   margin-bottom: 100px;
 }
+
+@media (max-width: 600px) {
+  .info {
+    width: auto;
+    overflow: hidden;
+  }
+  .first-info img {
+    display: none;
+  }
+  .first-info-left {
+    display: none;
+  }
+  .first-info-right {
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}

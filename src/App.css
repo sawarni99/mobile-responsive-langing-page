@@ -45,3 +45,12 @@
   height: 80vh;
   overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+  .app-background-info-grad {
+    display: none;
+  }
+  .app-slider-card {
+    height: auto;
+  }
+}

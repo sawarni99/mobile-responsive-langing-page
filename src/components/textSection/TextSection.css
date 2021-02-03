@@ -62,3 +62,28 @@
 .text-section-bottom {
   display: flex;
 }
+
+@media (max-width: 600px) {
+  .text-section {
+    position: relative;
+    width: 90%;
+    padding: 0;
+    margin-top: 80px;
+  }
+  .text-section-bg {
+    display: none;
+  }
+  .text-section-head {
+    width: 100%;
+  }
+  .text-section-top {
+    flex-direction: column;
+  }
+  .text-section-heading {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .text-section-bottom {
+    flex-direction: column;
+  }
+}

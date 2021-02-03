@@ -10,3 +10,12 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+  .review-view {
+    width: 90%;
+  }
+  .review-view-card {
+    width: 100%;
+  }
+}

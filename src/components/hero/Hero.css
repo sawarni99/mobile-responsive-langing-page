@@ -12,3 +12,18 @@
   margin-top: 100px;
   width: 35%;
 }
+@media (max-width: 600px) {
+  .hero-slider {
+    display: none;
+  }
+  .hero {
+    width: 90%;
+  }
+  .hero-info {
+    width: 100%;
+  }
+  .hero-review {
+    margin-top: 100px;
+    width: 90%;
+  }
+}
